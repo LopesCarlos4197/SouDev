@@ -1,0 +1,139 @@
+<?php
+/** CERTIFICADO AUTORIZADO PARA DESENVOLVIMENTO WEB & APP VS 2.0
+*
+* Author: Lopes Carlos Joaquim
+* Projeto: FbSuper Tecnology SouDev
+* Permição: customisação | interpretação | web & app
+* Versão: 3.1
+* Tecnologia: Angolana - (Publica) da FbSuper
+* E-mail: lopescarlosjavapython@gmail.com
+* Material: Html5, JS, PHP, BOOTSTRAP, FBSUPER
+*
+**/
+
+/**
+* Configurações de acesso e tipagens de conteudos...
+**/
+
+// Banda Desenhada | Musicas | Videos | Red Social | Frases 
+$tipo_de_site = "NGI0NDM2YTRkYmEyYmE4NzRjMjRlNzk0MjQ3ZmE4MmU";
+
+// insira apenas o nome da imagem. pasta: fonte/admin/imagem.png
+$icone_do_site = "logotipo.svg";
+
+// Insira o nome do seu site limitado há 18 caracteres
+$nome_do_site = "FbSuper Lib";
+
+// Configure o fuso horario das publicações
+// 0 é o padrão | 1 adicionado ao padrão | outros soma com o padrão. ex: hora+1 ou hoje+1=amanhã
+$dt_timezone_set = "Africa/Luanda";
+$hora_do_post = 1;
+$minutos_do_post = 0;
+$dia_do_post = 0;
+
+// Expansão de tela para todo site em si 1 é o padrão 0.1 para descktop e outros dependendo da tela
+$escala_do_site = 0.1;
+
+/**
+* Configurar cabeçalho do site parte 1 Conteudos...
+**/
+
+// Sim | Não
+$mostrar_cabecalho = "Sim";
+
+// Azul | Escuro | Laranja | Verde | Sizento | Vermelho | Branco
+$cor_fundo_cabecalho = "Escuro";
+
+// Sim | Não
+$mostrar_rodape = "Sim";
+
+
+// Sim | Não |( 1 | 2 | 3 | 4 | 5 )| Sim + 1 ...
+$mostrar_link_cabecalho = "Sim";
+
+// defina um texto qualquer com 4 ou mais Caracteres... para ser visivel
+$titulo_do_site = "Banda Desenhada";
+$link_1_titulo = "Eventos";
+$link_2_titulo = "Media play";
+$link_3_titulo = "Conteudos";
+$link_4_titulo = "Bater Papo";
+$link_5_titulo = "Sobre";
+
+/**
+* Configurar Corpo do site parte 1 Conteudos...
+**/
+
+// Sim | Não 
+$mostrar_slider_corpo = "Não";
+
+// Colunas | Listas
+$mostrar_forma_musicas = "Colunas";
+
+//definir titulo do slider em execução
+$titulo_slider_corpo = "SouDev lib FbSuper";
+//definir texto do slider em execução
+$texto_slider_corpo = "seja bem vindo venha conhecer-nos e ganha de graça o curso SouDev";
+//definir titulo do botão em slider da execução
+$button_slider_corpo = "carregar serrie";
+//definir fundo de imagem do slider em execução
+$fundo_slider_corpo = "fotoa.png";
+
+//Codigo do desenvolvidor soudev modo binario
+$codigo_adm_soudev = "4b4436a4dba2ba874c24e794247fa82e";
+
+/**
+* Configurar Rodape do site Parte 1 Conteudos visuais
+**/
+
+// Sim | Não | Opção 
+$rdp_ver_detalhes = "Opção";
+
+// Textos rodape
+$rdp_1_titulo = "Clube Sete & FbSuper";
+$rdp_2_titulo = "SouDev";
+$rdp_3_titulo = "http://soudev.ga";
+$rdp_4_titulo = "Lopes Carlos";
+$rdp_5_titulo = "lopescarloshtmjs@gmail.com";
+
+/**
+* Configurar banco de dado para melhor desempenho...
+**/
+
+// localhost | http://101.11.5 > servidor ip
+$host_bd_usuario = "localhost";
+// digite o seu user name ou seja usuario si existir
+$usuario_bd_admin = "root";
+// insira uma senha do servidor se existir
+$senha_bd_servidor = "";
+// digite o nome do banco de dados ex: SouDev
+$nome_bd_conectar = "lopescar_bdstart";
+
+//Informa todos dados do construtor si for configurado para sim
+$ler_apenas_construtor_txt = "SImp";
+//deixa nulas estas variaveis, por favor
+$bd = "";
+$erro_do_banco = "";
+
+/* Limpar banco de dados e seus conteudos em geral.
+*------------ Aviso da SouDev para si -------------
+*
+* Precias instalar o certificado de auto limpesa
+* baixa ele no site htttp:/fbsuper.com em projetos
+* apois baixar o arquivo CLEAR_MASTER_BD.zip extrai
+* e move o arquivo auto_destruir.txt na pasta certificado do seu site
+* pode demorar 2 minutos ou - se estiver muito conteudo ja postado no site
+* este processo não ira de limpar os arquivos que constituem o site...
+* CUIDADO VOCÊ PODE PERDER DADOS UTEIS DO TEU BANCO DE DADOS
+*
+* -----Obrigatorio prencher o forfulario abaixo para resultar ------
+**/
+
+// defini a senha de autoDestruição para reiniciar o site
+$senha_para_reiniciar_site = "digite a senha aqui ";
+
+// si voçê querer podes limpar os usuarios tambem," apenas SIM dara permição "
+$desejas_limpar_os_usuarios = "Não";
+
+# podes achar a senha na imagem extraida do CLEAR_MASTER_BD.zip...
+
+?>
